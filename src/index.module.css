@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Source Sans Pro, sans-serif;
+  font: 'Source Sans Pro';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  font: 'Source Sans Pro';
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0.3499999940395355px;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #17145B;
+}
+
+/* TableView styles */
+table thead {
+  font: 'Source Sans Pro';
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 40px;
+  border: 1px solid #CDCED9;
+} 
+
+thead th {
+  border-bottom: 1px solid #CDCED9;
+}
+
+th, td {
+  padding: 10px 10px 20px;
+  background-color: white;
+  text-align: left;
+  width: 100px;
+}
+
+td {
+  text-align: left;
+}
+
+th:first-child, td:first-child {
+  padding-left: 40px;
+}
+
+th:last-child, td:last-child {
+  width: 15px;
+}
+
+.categoryContainer {
+  text-align: center;
+}
+
+.category {
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* CardView styles */
+.cardContainer {  
+  font: 'Source Sans Pro';
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CDCED9;
+  margin: 0 0 20px;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between; 
+  text-align: left;
+  align-items: center;
+  width: 100%;
+}
+
+.cardNameLogoContainer {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.cardNameLogoContainer > div {
+  padding-left: 10px;
+  text-align: left;
+  max-width: 200px;
+}
+
+.description, .category, .purchaseDate {
+  font-size: 14px;
+  color: #272833;
+}
+
+.priceContainer {
+  font-size: 18px;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.purchaseDateContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cardViewContainer {
+  margin: 40px;
+}
